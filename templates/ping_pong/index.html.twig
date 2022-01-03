@@ -1,0 +1,21 @@
+{% extends 'base.html.twig' %}
+{% block title %}Hello PingPongController!
+{%
+endblock %}
+{% block body %}
+	<h1>
+		Ping Pong Game :</h1>
+	<div>
+		<p>Player 1 :
+			{{score1}}
+			point(s)</p>
+		<p>Player 2 :
+			{{score2}}
+			point(s)</p>
+
+		<p>State of the Game :
+			<strong>{{say}}{{currentState}}</strong>
+		</p>
+	</div>
+
+{% endblock %}
